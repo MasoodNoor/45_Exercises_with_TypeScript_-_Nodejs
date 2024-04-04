@@ -6,3 +6,6 @@ let names = ["Karar", "Saad", "Arshad", "Sammi", "Rahees", "Yunus"];
 names.forEach(name => {
     console.log(name);
 });
+for (const name of names) {
+    console.log(name);
+}
