@@ -11,5 +11,5 @@ guestlist.splice(Math.floor(guestlist.length / 2), 0, "Karar");
 // adding new guest in list at end using push function
 guestlist.push("Saad");
 guestlist.forEach(myGuestList => {
-    console.log(`Dear ${myGuestList}, You are cordially invited to dinner.`);
+    console.log(`Dear ${myGuestList}, You all are cordially invited to dinner.`);
 });
